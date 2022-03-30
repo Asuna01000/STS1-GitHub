@@ -31,6 +31,19 @@ int main()
     cout << Resultat; //Affiche le résultat
     return 0; //Retourne 0
  }
+//Ci-dessous la troisième fonction
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float Prix, Resultat; //Création des réelle Prix et Resultat
+    cout << "Choisissez un Prix : ";  //Demande a l'utilisateur de choisir un prix
+    cin >> Prix;
+    Resultat = Prix+(Prix*(19.6/100));  //Ajout des 19.6% au prix
+    cout << Resultat; //Affiche le résultat
+    }
 
 
 //Fonctions réalisées par l'étudiant 2 :

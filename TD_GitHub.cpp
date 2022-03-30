@@ -3,13 +3,13 @@
 #include <math.h> // Nessessaire pour faire fonctioner la fonction 'pow'
 #include <algorithm>  //std::min()
 using namespace std;
-
+/*
 |//--------------------------------------------//|
 |  //°--------------------------------------°//  |
 |  // Fonctions réalisées par l'étudiant 1 : //  |
 |  //°--------------------------------------°//  |
 |//--------------------------------------------//|
-
+*/
 bool estMajeur(int age)
 {
         if (age >= 18)

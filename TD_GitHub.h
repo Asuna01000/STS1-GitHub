@@ -1,7 +1,7 @@
 //Fonctions à réaliser par l'étudiant 1
 bool estMajeur(int age);
 
-int exposant(int nbre, int exp);
+int exposant(int nbre, int expo); // Changement de exp en expo.
 
 float TVA(int prix);
 

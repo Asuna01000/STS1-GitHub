@@ -4,37 +4,46 @@
 #include <algorithm>  //std::min()
 using namespace std;
 
+|//--------------------------------------------//|
+|  //°--------------------------------------°//  |
+|  // Fonctions réalisées par l'étudiant 1 : //  |
+|  //°--------------------------------------°//  |
+|//--------------------------------------------//|
 
-//----------------------------------------
-//Fonctions réalisées par l'étudiant 1 : |
-//----------------------------------------
-
-bool estMajeur(int age){
-        if (age >= 18){
+bool estMajeur(int age)
+{
+        if (age >= 18)
+        {
             return true ;
         }
-        else {
+        else 
+        {
             return false  ;
-            
         }
 }
     
-int exposant(int nbre, int expo){
+int exposant(int nbre, int expo)
+{
  return pow(nbre, expo);  //La fonction 'pow' est utiliser pour l'exposant. 
 }
 
-float TVA(int prix){
+float TVA(int prix)
+{
     return prix+(prix*(19.6/100));
 }
 
-int PlusGrand(int a, int b, int c){
-    if(a > b && a > c){ //Si le Nombre 1 est le plus grand l'afficher
+int PlusGrand(int a, int b, int c)
+{
+    if(a > b && a > c) //Si le Nombre 1 est le plus grand l'afficher
+    {
         return a;
     }
-    else if(b > a && b >c){ //Si le Nombre 2 est le plus grand l'afficher
+    else if(b > a && b >c) //Si le Nombre 2 est le plus grand l'afficher
+    { 
         return b;
     }
-    else{ //Sinon afficher le Nombre 3
+    else //Sinon afficher le Nombre 3
+    { 
         return c;
     }
 }

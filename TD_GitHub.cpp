@@ -44,6 +44,40 @@ int main()
     Resultat = Prix+(Prix*(19.6/100));  //Ajout des 19.6% au prix
     cout << Resultat; //Affiche le résultat
     }
+//Ci-dessous la dernière fonction
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+int PlusGrand(int a, int b, int c)
+{
+    if(a > b && a > c) //Si le Nombre 1 est le plus grand l'afficher
+    {
+        cout << a;
+    }
+    else if(b > a && b >c) //Si le Nombre 2 est le plus grand l'afficher
+    {
+        cout << b;
+    }
+    else //Sinon afficher le Nombre 3
+    {
+        cout << c;
+    }
+    return 0;
+}
+int main()
+{
+    int a, b, c; //Création des entier Nombre1 Nombre2 et Nombre3
+    cout << "Choisissez le Nombre 1 : ";  //Demande a l'utilisateur de choisir le nombre 1
+    cin >> a;
+    cout << "Choisissez le Nombre 2 : ";  //Demande a l'utilisateur de choisir le nombre 2
+    cin >> b;
+    cout << "Choisissez le Nombre 3 : ";  //Demande a l'utilisateur de choisir le nombre 3
+    cin >> c;
+    PlusGrand( a, b, c);
+}
+
+
 
 
 //Fonctions réalisées par l'étudiant 2 :

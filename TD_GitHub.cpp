@@ -1,6 +1,6 @@
 //Fonctions réalisées par l'étudiant 1 :
 
-
+//Ci-dessous la première fonction
 bool estMajeur(int age)
     {
         if (age >= 18)
@@ -13,6 +13,24 @@ bool estMajeur(int age)
                 return false  ;
             }  
     }
+//Ci-dessous la deuxième fonction
+
+#include <stdio.h>
+#include <iostream>
+#include <math.h> // Nessessaire pour faire fonctioner la fonction 'pow'
+using namespace std;
+
+int main()
+{
+    int Nombre, Exposant, Resultat; //Création des entier Nombre Exposant et Resultat
+    cout << "Choisissez un Nombre : ";  //Demande a l'utilisateur de choisir un nombre
+    cin >> Nombre;
+    cout << "Choisissez un Exposant : "; //Demande a l'utilisateur de choisir un Exposant
+    cin >> Exposant;
+    Resultat = pow(Nombre,Exposant);  //La fonction 'pow' est utiliser pour l'exposant. 
+    cout << Resultat; //Affiche le résultat
+    return 0; //Retourne 0
+ }
 
 
 //Fonctions réalisées par l'étudiant 2 :
